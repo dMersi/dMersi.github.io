@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+::-webkit-scrollbar {
+    display: none;
+  }
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+.navbar-brand {
+  font-family: 'Lilita One', cursive;
+  font-size: 40px;
+  padding-right: 100px;
+}
+body {
+    background-color: whitesmoke;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+.header-jumbotron {
+    padding-top: 6rem;
+    min-height: 690px;
+    background-image: url(Hikes.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lilita One', cursive;
+    color: white;
+}
+#about {
+    background-color: #baffc0;
+}
+#design {
+    background: linear-gradient(to left, #4ccb61, #00c19b, #00b2c9, #009ddd, #2b83d2);
+    font-family: 'Philosopher', sans-serif;
+}
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    
+  }
+  .img-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.7);
+    top: 300px;
+    transition: all 0.5s ease-in;
+  }
+  .img-title p,
+  h3 {
+    line-height: 20px;
+    position: relative;
+    top: 100px;
+    text-shadow: rgba(5, 5, 5, 0.5);
+  }
+  .me {
+    color: #0093e0;
+  }
+  .card:hover .img-title {
+    top: 0;
+    transition: all 0.5s ease-out;
+  }
+  .card img {
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+  }
+  .card:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+  }
+  #testimoni {
+    background: linear-gradient(to bottom, #4c74cb, #0093e0, #00add9, #00c2ba, #2bd28f);
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+  }
+  #contact {
+    background: linear-gradient(to bottom, #d2d7e1, #c8d9e0, #c2dad9, #c5d9cd, #d0d6c1);
+    font-family: 'Poppins', sans-serif;
+  }
+  .footer {
+    background-color: #161020;
+  }
+  section {
+    padding-top: 5rem;
+  }
